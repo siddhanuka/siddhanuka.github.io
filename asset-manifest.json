@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e90bf6fa.css",
+    "main.js": "/static/js/main.6f7b9ed3.js",
+    "static/media/thumb-macrochef.png": "/static/media/thumb-macrochef.99577a2ef8453bf02072.png",
+    "static/media/thumb-nyfp.png": "/static/media/thumb-nyfp.b283b86a0bf752caf525.png",
+    "static/media/thumb-hd.png": "/static/media/thumb-hd.79c95391098e4806e339.png",
+    "static/media/thumb-cb.png": "/static/media/thumb-cb.d80cda2fcdefb89079ca.png",
+    "static/media/thumb-ltk.png": "/static/media/thumb-ltk.6d8a2add098d5b76e21d.png",
+    "static/media/thumb-vwa.png": "/static/media/thumb-vwa.4d6bca9beb24c49956a0.png",
+    "static/media/e4.png": "/static/media/e4.ae68b515b7bf741ccae4.png",
+    "static/media/WordArt3.png": "/static/media/WordArt3.4d08ec19df87ff4be635.png",
+    "static/media/GitHub_Logo.png": "/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
+    "static/media/e1.png": "/static/media/e1.006e82b78442c3e56006.png",
+    "index.html": "/index.html",
+    "main.e90bf6fa.css.map": "/static/css/main.e90bf6fa.css.map",
+    "main.6f7b9ed3.js.map": "/static/js/main.6f7b9ed3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e90bf6fa.css",
+    "static/js/main.6f7b9ed3.js"
+  ]
+}
