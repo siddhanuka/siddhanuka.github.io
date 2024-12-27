@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 
 import Thumbmmc from '../assets/thumb-macrochef.png'
-import Thumbnyf from '../assets/thumb-nyfp.png'
 import Thumbltk from '../assets/thumb-ltk.png'
-import Thumbcb from '../assets/thumb-cb.png'
-import Thumbvwa from '../assets/thumb-vwa.png'
-import Thumbhd from '../assets/thumb-hd.png'
+import Thumbcb from '../assets/thumb-cld.png'
+import Thumbvwa from '../assets/thumb-url.webp'
 
 class WorkDisplay extends Component {
   showDescription(num) {
@@ -37,28 +35,14 @@ class WorkDisplay extends Component {
     if (this.props.descript === '3') {
       return (
         <p className='proj-desc'>
-          Big Data Analytics: analysis of new york film permits and its effect on demographic of the area 
+          CICD automation with GCP Infrastructure-as-a-Code implementation
         </p>
       )
     }
     if (this.props.descript === '4') {
       return (
         <p className='proj-desc'>
-          go ahead and say hi to my chatbot for table reservation
-        </p>
-      )
-    }
-    if (this.props.descript === '5') {
-      return (
-        <p className='proj-desc'>
-          check out the weather in a minimalistic weather app
-        </p>
-      )
-    }
-    if (this.props.descript === '6') {
-      return (
-        <p className='proj-desc'>
-          computer vision system that detects humans in an image
+          golang based URL shortener with Redis caching
         </p>
       )
     }
@@ -73,8 +57,7 @@ class WorkDisplay extends Component {
             <div className='row-item'
               onMouseOver={this.showDescription.bind(this, '1')}
               onMouseOut={this.showDescription.bind(this, '0')}>
-              <a href='https://www.youtube.com/watch?v=0IPpJAcWXtQ' target='blank'>
-                
+              <a href='https://github.com/siddhanuka/meal-wise' target='blank'>
                 <img className='thumbnail' src={Thumbmmc} alt=''/>
               </a>
               
@@ -83,45 +66,27 @@ class WorkDisplay extends Component {
             <div className='row-item'
               onMouseOver={this.showDescription.bind(this, '2')}
               onMouseOut={this.showDescription.bind(this, '0')}>
-              <a href='https://www.youtube.com/watch?v=P9Sa7lldHF8' target='blank'>
+              <a href='https://github.com/siddhanuka/gesture-keyboard' target='blank'>
                 <img className='thumbnail' src={Thumbltk} alt=''/>
               </a>
               
-
-            </div>
-            <div className='row-item'
-              onMouseOver={this.showDescription.bind(this, '3')}
-              onMouseOut={this.showDescription.bind(this, '0')}>
-              <a href='https://github.com/vvvirenyu/NYC-film-permits/blob/master/PBDA_Final_Project_Presentation.pdf' target='blank'>
-                <img className='thumbnail' src={Thumbnyf} alt=''/>
-              </a>
-
             </div>
           </div>
           <div className='second row'>
             <div className='row-item'
-              onMouseOver={this.showDescription.bind(this, '4')}
+              onMouseOver={this.showDescription.bind(this, '3')}
               onMouseOut={this.showDescription.bind(this, '0')}>
-              <a href='http://ccassignment01.s3.amazonaws.com/index.html' target='blank'>
+              <a href='https://github.com/neucsye6225cloud' target='blank'>
                 <img className='thumbnail' src={Thumbcb} alt=''/>
               </a>
 
 
             </div>
             <div className='row-item'
-              onMouseOver={this.showDescription.bind(this, '5')}
+              onMouseOver={this.showDescription.bind(this, '4')}
               onMouseOut={this.showDescription.bind(this, '0')}>
-              <a href='https://vvvirenyu.github.io/vanilla-weather-app' target='blank'>
+              <a href='https://github.com/siddhanuka/simple-url-shortener-go' target='blank'>
                 <img className='thumbnail' src={Thumbvwa} alt=''/>
-              </a>
-              
-
-            </div>
-            <div className='row-item'
-              onMouseOver={this.showDescription.bind(this, '6')}
-              onMouseOut={this.showDescription.bind(this, '0')}>
-              <a href='https://github.com/vvvirenyu/Human-Detection-HOG-LBP-/blob/master/cv2_vsr266.pdf' target='blank'>
-                <img className='thumbnail' src={Thumbhd} alt=''/>
               </a>
             </div>
           </div>

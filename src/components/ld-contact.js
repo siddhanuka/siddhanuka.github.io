@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 import gitHubLogo from '../assets/GitHub_Logo.png'
 import linkedInLogo from '../assets/icons8-LinkedIn-48.png'
-import replitLogo from '../assets/repl-logo-small.png'
 
 class Contact extends Component {
   contactToggle() {

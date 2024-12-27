@@ -50,7 +50,7 @@ class ExpDisplay extends Component {
                         <div className='exprow-item'
                             onMouseOver={this.showDescription.bind(this, '1')}ˇ
                             onMouseOut={this.showDescription.bind(this, '0')}>
-                            <a href='https://streamingdataplatform.github.io/code-hub/demos/2023/04/18/observability-app-bundle.html' target='blank'>
+                            <a href='https://www.strandtx.com/' target='blank'>
                                 <img className='expthumbnail' src={ThumbDell} alt='' />
                             </a>
                         </div>
